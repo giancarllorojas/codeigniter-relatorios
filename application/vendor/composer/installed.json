@@ -1,0 +1,88 @@
+[
+    {
+        "name": "ghunti/highcharts-php",
+        "version": "v3.0.3",
+        "version_normalized": "3.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ghunti/HighchartsPHP.git",
+            "reference": "548b321478510ec1559432a9baabbfba1a1e559a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ghunti/HighchartsPHP/zipball/548b321478510ec1559432a9baabbfba1a1e559a",
+            "reference": "548b321478510ec1559432a9baabbfba1a1e559a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-01-24T11:57:43+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ghunti\\HighchartsPHP\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Gonçalo Queirós",
+                "email": "mail@goncaloqueiros.net",
+                "homepage": "http://goncaloqueiros.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "A php wrapper for highcharts and highstock javascript libraries",
+        "homepage": "http://goncaloqueiros.net/highcharts.php",
+        "keywords": [
+            "charts",
+            "highcharts",
+            "highstock",
+            "javascript",
+            "php"
+        ]
+    },
+    {
+        "name": "ozdemir/datatables",
+        "version": "1.6.9",
+        "version_normalized": "1.6.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/n1crack/datatables.git",
+            "reference": "5c2756603d244c4c7180ef1b76633940b9ad8058"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/n1crack/datatables/zipball/5c2756603d244c4c7180ef1b76633940b9ad8058",
+            "reference": "5c2756603d244c4c7180ef1b76633940b9ad8058",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpspec/phpspec": "~2.0"
+        },
+        "time": "2017-12-20T16:43:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ozdemir\\Datatables\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yusuf Özdemir",
+                "email": "yusuf@ozdemir.be"
+            }
+        ],
+        "description": "PHP Library to handle server-side processing for Datatables, in a fast and simple way."
+    }
+]
